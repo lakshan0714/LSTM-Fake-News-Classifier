@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.dropzone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 500px;
+    border:2px dashed rgb(117, 112, 112) ;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgb(250, 244, 248);
+}
+
+.cloud-upload{
+    width: 50px;
+    margin-bottom: 0px ;
+}
+.Drag-title{
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+.OR-drag{
+    margin: 5px 0 ;
+}
+.button-input{
+    margin-top: 12px;
+    color: white;
+    background-color:rgb(116, 58, 242) ;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 9px;
+    cursor: pointer;
+}
+.button-input:hover{
+    background-color:rgb(173, 122, 221)
+}
+.after-uploads{
+    height: 250px;
+    width: 500px;
+    border:2px dashed rgb(117, 112, 112) ;
+    border-radius: 15px;
+    background-color: rgb(250, 244, 248);
+
+}
+.after-uploads .uploadPic{
+    height: 150px;
+}
+.after-uploads .filename{
+    color: gray;
+    font-size: 13px;
+    margin: 3px;
+}
+.after-uploads .cancel-btn {
+    background-color: #e62b2b;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px 10px;
+
+}
+.after-uploads .cancel-btn:hover{
+    background-color: #d35e5e;
+}

@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.navbar .logo {
+    height: 70px;
+}
+
+.navbar .page {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: gray;
+}
+
+.navbar .avatar {
+    width: 30px; 
+}
+.navbar .IconAvatar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

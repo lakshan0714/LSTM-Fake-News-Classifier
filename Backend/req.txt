@@ -1,0 +1,15 @@
+pandas
+numpy
+matplotlib
+textblob
+plotly
+nltk
+scikit-learn
+tensorflow
+cufflinks
+wordcount
+fastapi
+uvicorn
+python-multipart
+pytesseract
+pillow
